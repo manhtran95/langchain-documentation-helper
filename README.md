@@ -39,4 +39,7 @@ uv sync
 uv run python ingestion.py
 ```
 
-### 3. Start the app
+### 3. Start the app at localhost:8501
+```bash
+uv run streamlit run ingestion.py
+```
